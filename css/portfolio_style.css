@@ -254,6 +254,8 @@ section {
           font-size: 25px;
           font-weight: 500;
           margin: 10px 0 7px 0; }
+        .services .serv-content .card .box ul li {
+          list-style: none; }
   .services .title {
     position: relative;
     text-align: center;
@@ -560,7 +562,7 @@ footer {
     flex: 100%; }
 
   .services .serv-content .card {
-    width: calc(50% - 10px);
+    width: calc(95% - 10px);
     margin-bottom: 20px; }
 
   .skills .max-width .skills-content .column {
