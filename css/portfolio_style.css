@@ -353,6 +353,33 @@ section {
 .teams {
   background: black;
   color: #fff; }
+  .teams .max-width .loading {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: "Ubuntu", sans-serif;
+    color: orange; }
+    .teams .max-width .loading:before {
+      content: "";
+      position: absolute;
+      bottom: 0px;
+      left: 50%;
+      width: 160px;
+      height: 3px;
+      background: black;
+      transform: translateX(-50%); }
+    .teams .max-width .loading:after {
+      position: absolute;
+      bottom: -11px;
+      left: 50%;
+      font-size: 20px;
+      color: #db3956;
+      padding: 3px;
+      background: white;
+      transform: translateX(-50%); }
   .teams .max-width .title:before {
     background: #fff; }
   .teams .max-width .title:after {
