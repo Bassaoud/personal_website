@@ -24,14 +24,14 @@ $(document).ready(function(){
     });
     //typing animation script
     var typed = new Typed(".typing", {
-        strings: ["full stack developer", "front-end developer", "back-end developer", "Freelancer"],
+        strings: ["full stack developer", "front-end developer", "back-end developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["full stack developer", "front-end developer", "back-end developer", "Freelancer"],
+        strings: ["full stack developer", "front-end developer", "back-end developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -57,4 +57,6 @@ $(document).ready(function(){
             }
         }
     });
+
+    $('.submit__button__form').prop('disabled', true);
 });

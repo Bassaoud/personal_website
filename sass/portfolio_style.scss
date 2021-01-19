@@ -516,7 +516,7 @@ section {
         background: $white;
       }
       &:after {
-        content: "who with me";
+        content: "what i did";
         color: $main_color;
         background: rgb(0, 0, 0);
       }
@@ -564,6 +564,29 @@ section {
             font-size: 25px;
             font-weight: 500;
             margin: 10px 0 7px 0;
+          }
+          .button__visit__app {
+            border: 2px solid $main_color;
+           background: $main_color;
+           color: $white;
+           font-size: 20px;
+           font-weight: 500;
+           border-radius: 6px;
+           cursor: pointer;
+           padding: 3px;
+           margin-top: 15px;
+           transition: color 0.3s ease;
+           &:hover {
+             background-color: rgb(255, 255, 255);
+             color: $main_color;
+             
+           }
+          a {
+            text-decoration: none;
+            color: white;
+          &:hover {
+            color: $main_color;
+          }          }
           }
         }
 
